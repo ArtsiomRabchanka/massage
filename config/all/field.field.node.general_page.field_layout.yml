@@ -1,0 +1,31 @@
+uuid: 8663b8c0-3c2f-4e62-8476-f7c779e9269b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_layout
+    - node.type.general_page
+    - paragraphs.paragraphs_type.p_layout
+  module:
+    - entity_reference_revisions
+id: node.general_page.field_layout
+field_name: field_layout
+entity_type: node
+bundle: general_page
+label: Layout
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      p_layout: p_layout
+    negate: 0
+    target_bundles_drag_drop:
+      p_layout:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions
