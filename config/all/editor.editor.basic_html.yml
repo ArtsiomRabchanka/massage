@@ -28,6 +28,7 @@ settings:
       - code
       - '|'
       - sourceEditing
+      - icon
   plugins:
     ckeditor5_heading:
       enabled_headings:
@@ -56,6 +57,15 @@ settings:
       startIndex: true
     ckeditor5_imageResize:
       allow_resize: true
+    ckeditor5_icons_icon:
+      fa_version: '6'
+      fa_styles:
+        - solid
+        - regular
+        - brands
+      custom_metadata: false
+      async_metadata: true
+      recommended_enabled: false
 image_upload:
   status: true
   scheme: public

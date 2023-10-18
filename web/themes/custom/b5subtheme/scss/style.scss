@@ -7,3 +7,20 @@
 
 // Include bootstrap.
 @import '../../../../themes/contrib/bootstrap5/scss/style';
+
+// Bootstrap overriden variables.
+// @see https://getbootstrap.com/docs/5.2/customize/sass/#variable-defaults.
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// Include components
+@import 'variables_bootstrap';
+@import 'components/layout';
+@import 'components/menu';
+@import 'components/footer';
+@import 'components/blocks';
+@import 'components/fields';
+@import 'components/typography';
+@import 'components/forms';
+

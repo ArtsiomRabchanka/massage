@@ -1,0 +1,29 @@
+uuid: e67a5bca-03f5-468b-992a-6319e69d542e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3051d31b-37b3-4c9d-804a-ad75b1edb65c'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - b5subtheme
+third_party_settings:
+  block_class:
+    classes: 'col-3 phone-block'
+id: phone
+theme: b5subtheme
+region: header
+weight: -6
+provider: null
+plugin: 'block_content:3051d31b-37b3-4c9d-804a-ad75b1edb65c'
+settings:
+  id: 'block_content:3051d31b-37b3-4c9d-804a-ad75b1edb65c'
+  label: Phone
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

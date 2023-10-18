@@ -1,4 +1,33 @@
 // Bootstrap variables (overrides).
-$form-text-margin-top: 0;
-$legend-font-size: 1rem;
-$table-cell-padding-x: .75rem;
+
+// override default bootstrap colors for accessibility
+//$white: #fff !default;
+//$black: #000 !default;
+//$gray-700: #495057 !default;
+
+$purple: #51267b;
+$green: #248b56;
+$red: #db6f63;
+$blue: #24abe3 !default;
+$yellow: #fce923 !default;
+$light-green: #aedd94 !default;
+$light-blue: #c9f1fd !default;
+$greylight: #e0e0e0 !default;
+
+//$cyan: #006170 !default;
+//$pink: #e21181 !default;
+//$green: #008a00 !default;
+
+//$breadcrumb-divider-color: $gray-700 !default;
+//$breadcrumb-active-color: $gray-700 !default;
+
+//$navbar-light-color: rgba($black, .6) !default;
+//$navbar-dark-color: rgba($white, .6) !default;
+
+$h1-font-size: 3.125rem;
+$h2-font-size: 2.5rem;
+$h3-font-size: 1.75rem;
+$h4-font-size: 1.5rem;
+$h5-font-size: 1.25rem;
+$p-font-size: 1.05rem;
+$p-small-font-size:1rem;

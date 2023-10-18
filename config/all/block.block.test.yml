@@ -1,0 +1,29 @@
+uuid: 7303da02-35dc-457b-8c4a-f182a9e52443
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9ef7dfec-5c74-4f81-9b14-df87a1da1452'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - b5subtheme
+third_party_settings:
+  block_class:
+    classes: 'col-3 address-block'
+id: test
+theme: b5subtheme
+region: header
+weight: -7
+provider: null
+plugin: 'block_content:9ef7dfec-5c74-4f81-9b14-df87a1da1452'
+settings:
+  id: 'block_content:9ef7dfec-5c74-4f81-9b14-df87a1da1452'
+  label: Address
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'f122e56a7eca7f8923e2e3b028ae39a5824491b6',
+        'reference' => '2b897dc5623b0a2fee6a4fa882b3148d0e38cf1a',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -224,6 +224,15 @@
             'install_path' => __DIR__ . '/../../web/themes/contrib/bootstrap5',
             'aliases' => array(),
             'reference' => '3.0.10',
+            'dev_requirement' => false,
+        ),
+        'drupal/ckeditor5_icons' => array(
+            'pretty_version' => '1.0.0-beta3',
+            'version' => '1.0.0.0-beta3',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/ckeditor5_icons',
+            'aliases' => array(),
+            'reference' => '1.0.0-beta3',
             'dev_requirement' => false,
         ),
         'drupal/core' => array(
@@ -454,7 +463,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'f122e56a7eca7f8923e2e3b028ae39a5824491b6',
+            'reference' => '2b897dc5623b0a2fee6a4fa882b3148d0e38cf1a',
             'dev_requirement' => false,
         ),
         'drush/drush' => array(

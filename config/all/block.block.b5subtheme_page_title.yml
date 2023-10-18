@@ -1,6 +1,6 @@
 uuid: e2c8647e-2ebd-4410-b790-8b635b88876a
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - b5subtheme

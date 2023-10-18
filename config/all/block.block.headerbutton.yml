@@ -1,0 +1,29 @@
+uuid: f03cd1ec-1dec-4664-8b78-001a90c6e873
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4a5f9c62-bb4d-4e99-8f34-7fc43d0653a0'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - b5subtheme
+third_party_settings:
+  block_class:
+    classes: 'col-3 header-button'
+id: headerbutton
+theme: b5subtheme
+region: header
+weight: -5
+provider: null
+plugin: 'block_content:4a5f9c62-bb4d-4e99-8f34-7fc43d0653a0'
+settings:
+  id: 'block_content:4a5f9c62-bb4d-4e99-8f34-7fc43d0653a0'
+  label: 'Header Button'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

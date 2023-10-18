@@ -1,0 +1,29 @@
+uuid: b8a64f44-f650-460c-9221-32db540839c8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:272e644e-9fa6-4a62-ad63-646953584280'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - b5subtheme
+third_party_settings:
+  block_class:
+    classes: col-3
+id: branding
+theme: b5subtheme
+region: header
+weight: -8
+provider: null
+plugin: 'block_content:272e644e-9fa6-4a62-ad63-646953584280'
+settings:
+  id: 'block_content:272e644e-9fa6-4a62-ad63-646953584280'
+  label: Branding
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
