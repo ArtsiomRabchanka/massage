@@ -1,0 +1,148 @@
+body {
+  overflow-x: hidden;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.bg-purple {
+  background-color: $purple;
+}
+
+.list-group {
+  font-size: $p-font-size;
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  li {
+    &:not(:first-child):hover {
+      background-color: $light-green;
+    }
+  }
+}
+
+h1 {
+  font-size: $h1-font-size;
+  color: $purple;
+}
+
+h2 {
+  font-size: $h2-font-size;
+  color: $purple;
+  text-align: center;
+}
+
+h3 {
+  font-size: $h4-font-size;
+  color: $purple;
+}
+
+.also-of-interest {
+  h5 {
+    color: $purple;
+    font-size: $h2-font-size;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $yellow;
+  }
+}
+
+p {
+  font-size: $p-font-size;
+}
+
+//green button 50% border
+
+.field--name-field-event-category {
+  display: inline-block;
+	line-height: 32px;
+	padding: 0 35px;
+	background-color: $green;
+	font-weight: bold;
+	font-size: $p-font-size;
+	text-align: center;
+  border-radius: 16px;
+  a {
+    color: black;
+    text-decoration: none;
+    &:hover,
+    &:active,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+}
+
+// blue button
+
+.field--name-field-printer-friendly button,
+.download-all-files,
+#edit-submit-home-page-search-block,
+.field--name-field-card-block-link a,
+.media-download-all {
+	display: inline-flex;
+  background-color: $blue;
+  color: #fff;
+  font-size: $p-font-size;
+  font-weight: bold;
+  line-height: 48px;
+  padding: 0 35px;
+  text-decoration: none;
+  border: none;
+  &:hover {
+    background:$purple;
+    color: #fff;
+  }
+}
+// Purple button
+
+.media-download-all-mod {
+  display: inline-flex;
+  background-color: $purple;
+  color: #fff;
+  font-size: $p-font-size;
+  font-weight: bold;
+  line-height: 48px;
+  padding: 0 35px;
+  text-decoration: none;
+  border: none;
+  &:hover {
+    background:$blue;
+    color: #fff;
+  }
+}
+
+.media-download-all {
+  margin-top:30px;
+  display:inline-block;
+}
+
+.adaptive_link_button {
+  align-items: center;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75);
+  
+  display: inline-flex;
+  font-size: $p-font-size;
+  font-weight: bold;
+  line-height: 48px;
+  padding: 0 35px;
+  text-decoration: none;
+  border: none;
+  border-radius: 0;
+  .awp_font_icon {
+    margin: 0 0.5em;
+  }
+  &.btn-aw-green {
+    background-color: $green;
+    color: white;
+  }
+  &.btn-aw-green {
+    background-color: $green;
+    color: white;
+  }
+  &.btn-aw--buton-default {
+    background-color: $blue;
+    color: $black;
+  }
+}

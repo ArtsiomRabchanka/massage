@@ -1,0 +1,18 @@
+footer {
+  p {
+    color: $white;
+    margin-bottom:2px;
+  }
+}
+
+.region-footer-left {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.region-footer-copyright {
+  font-size: 14px;
+  p {
+    font-size: 14px;
+  }
+}
