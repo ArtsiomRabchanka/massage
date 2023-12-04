@@ -1,0 +1,25 @@
+uuid: 1c331bab-5d98-4c8f-9e09-8dc694ad5c18
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:layout_block:1ffdf0e3-cd6e-4e12-80ed-f4faec9f571f'
+  module:
+    - block_content
+  theme:
+    - b5subtheme
+id: conditions
+theme: b5subtheme
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:1ffdf0e3-cd6e-4e12-80ed-f4faec9f571f'
+settings:
+  id: 'block_content:1ffdf0e3-cd6e-4e12-80ed-f4faec9f571f'
+  label: Conditions
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

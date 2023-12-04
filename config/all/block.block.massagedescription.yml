@@ -1,0 +1,29 @@
+uuid: 8945204a-fca0-418d-8dd9-bdc15aee53b5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:layout_block:e34aec22-7483-4b01-9724-4582b8ca5bb0'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - b5subtheme
+third_party_settings:
+  block_class:
+    classes: text-centered
+id: massagedescription
+theme: b5subtheme
+region: content
+weight: -10
+provider: null
+plugin: 'block_content:e34aec22-7483-4b01-9724-4582b8ca5bb0'
+settings:
+  id: 'block_content:e34aec22-7483-4b01-9724-4582b8ca5bb0'
+  label: 'Massage Description'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

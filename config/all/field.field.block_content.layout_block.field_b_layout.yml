@@ -1,0 +1,41 @@
+uuid: c85a1af9-4c11-4f0f-a201-8bb33715f51d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.layout_block
+    - field.storage.block_content.field_b_layout
+    - paragraphs.paragraphs_type.p_image
+    - paragraphs.paragraphs_type.p_layout
+    - paragraphs.paragraphs_type.p_text_formatted
+  module:
+    - entity_reference_revisions
+id: block_content.layout_block.field_b_layout
+field_name: field_b_layout
+entity_type: block_content
+bundle: layout_block
+label: Layout
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      p_layout: p_layout
+      p_image: p_image
+      p_text_formatted: p_text_formatted
+    negate: 0
+    target_bundles_drag_drop:
+      p_image:
+        weight: 4
+        enabled: true
+      p_layout:
+        weight: 2
+        enabled: true
+      p_text_formatted:
+        weight: 4
+        enabled: true
+field_type: entity_reference_revisions

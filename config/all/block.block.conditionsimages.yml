@@ -1,0 +1,25 @@
+uuid: ddd0ead4-c8a0-4553-ac9e-6d7fc14ebfbc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:layout_block:125db45e-d640-4cbc-8e84-da3518a313c0'
+  module:
+    - block_content
+  theme:
+    - b5subtheme
+id: conditionsimages
+theme: b5subtheme
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:125db45e-d640-4cbc-8e84-da3518a313c0'
+settings:
+  id: 'block_content:125db45e-d640-4cbc-8e84-da3518a313c0'
+  label: 'Conditions Images'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,29 @@
+uuid: 59a676a1-9ec5-4d7e-be1a-bc0d04701af1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:layout_block:3109387a-3ad3-495d-b35d-55cd180bca75'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - b5subtheme
+third_party_settings:
+  block_class:
+    classes: 'bg-gray img-rounded mt-5'
+id: aboutteacher
+theme: b5subtheme
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:3109387a-3ad3-495d-b35d-55cd180bca75'
+settings:
+  id: 'block_content:3109387a-3ad3-495d-b35d-55cd180bca75'
+  label: 'About Teacher'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

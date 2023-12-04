@@ -1,0 +1,23 @@
+uuid: 5029dd59-4741-4513-a5cc-f4eadcebaea3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_p_text_formatted
+    - paragraphs.paragraphs_type.p_text_formatted
+  module:
+    - text
+id: paragraph.p_text_formatted.field_p_text_formatted
+field_name: field_p_text_formatted
+entity_type: paragraph
+bundle: p_text_formatted
+label: 'Text Formatted'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

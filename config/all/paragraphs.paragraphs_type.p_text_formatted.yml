@@ -1,0 +1,10 @@
+uuid: 161d97fe-7fdb-4321-9342-9358366470d1
+langcode: en
+status: true
+dependencies: {  }
+id: p_text_formatted
+label: 'Text Formatted'
+icon_uuid: null
+icon_default: null
+description: 'Formatted Text paragraph type'
+behavior_plugins: {  }

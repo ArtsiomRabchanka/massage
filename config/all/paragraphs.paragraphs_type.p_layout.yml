@@ -14,7 +14,12 @@ behavior_plugins:
     enabled: true
     available_layouts:
       layout_onecol: 'One column'
+      layout_onecol_contained: 'One column contained'
       layout_twocol: 'Two column'
       layout_twocol_bricks: 'Two column bricks'
+      layout_twocol_33_66: 'Two columns 33/66'
+      layout_twocol_66_33: 'Two columns 66/33'
       layout_threecol_25_50_25: 'Three column 25/50/25'
       layout_threecol_33_34_33: 'Three column 33/34/33'
+      layout_threecol_contained: 'Three column contained'
+      layout_fourcol: 'Four columns'

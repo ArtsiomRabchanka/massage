@@ -1,0 +1,29 @@
+uuid: 34d075fb-5e81-49d1-9a31-5228ab0257df
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:layout_block:e457727d-f776-412c-be75-bb929987f8c4'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - b5subtheme
+third_party_settings:
+  block_class:
+    classes: 'bg-gray threecol-images col-shadow py-4 text-centered'
+id: massageforyou
+theme: b5subtheme
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:e457727d-f776-412c-be75-bb929987f8c4'
+settings:
+  id: 'block_content:e457727d-f776-412c-be75-bb929987f8c4'
+  label: 'Massage For You'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
