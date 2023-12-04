@@ -2,3 +2,7 @@ global-styling:
   css:
     theme:
       css/style.css: {}
+      //unpkg.com/swiper@8/swiper-bundle.min.css: { type: external, minified: true }
+   js:
+    js/scripts.js: {}
+    //unpkg.com/swiper@8/swiper-bundle.min.js: { type: external, minified: true }
