@@ -1,0 +1,74 @@
+layout_onecol_contained:
+  label: 'One column contained'
+  path: layouts/onecol_contained
+  template: layout--onecol-contained
+  library: layouts/onecol_contained
+  category: 'Columns: 1'
+  default_region: first
+  icon_map:
+    - [first]
+  regions:
+    first:
+      label: First
+layout_twocol_33_66:
+  label: 'Two columns 33/66'
+  path: layouts/twocol_33_66
+  template: layout--twocol-33-66
+  library: layouts/twocol_33_66
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [first, second]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+layout_twocol_66_33:
+  label: 'Two columns 66/33'
+  path: layouts/twocol_66_33
+  template: layout--twocol-66-33
+  library: layouts/twocol_66_33
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [first, second]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+layout_threecol_contained:
+  label: 'Three column contained'
+  path: layouts/threecol_contained
+  template: layout--threecol-contained
+  library: layouts/threecol_contained
+  category: 'Columns: 3'
+  default_region: first
+  icon_map:
+    - [first, second, third]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+    third:
+      label: Third
+layout_fourcol:
+  label: 'Four columns'
+  path: layouts/fourcol
+  template: layout--fourcol
+  library: layouts/fourcol
+  category: 'Columns: 4'
+  default_region: first
+  icon_map:
+    - [first, second, third, fourth]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+    third:
+      label: Third
+    fourth:
+      label: Fourth
