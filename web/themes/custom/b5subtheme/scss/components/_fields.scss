@@ -1,0 +1,26 @@
+.paragraph--type--p-image {
+    height: 100%;
+    .field--name-field-p-image {
+        height: 100%;
+        img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.img-rounded {
+    .paragraph--type--p-image {
+        height: 100%;
+        .field--name-field-p-image {
+            height: 100%;
+            img {
+                border-radius: 50%;
+                width: 30%;
+                margin: 0 auto;
+                display: block;
+            }
+        }
+    }
+}
