@@ -15,7 +15,7 @@ third_party_settings:
 id: massagedescription
 theme: b5subtheme
 region: content
-weight: -10
+weight: -11
 provider: null
 plugin: 'block_content:e34aec22-7483-4b01-9724-4582b8ca5bb0'
 settings:

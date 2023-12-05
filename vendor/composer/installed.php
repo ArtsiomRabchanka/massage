@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '7182c3ee79851590168a9d402ba70b391dfb8fd2',
+        'reference' => 'c06ebc6e9750c11bc102f825fccdcaa8451c22cf',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -215,6 +215,15 @@
             'install_path' => __DIR__ . '/../../web/modules/contrib/block_class',
             'aliases' => array(),
             'reference' => '8.x-1.3',
+            'dev_requirement' => false,
+        ),
+        'drupal/block_field' => array(
+            'pretty_version' => '1.0.0-rc4',
+            'version' => '1.0.0.0-RC4',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/block_field',
+            'aliases' => array(),
+            'reference' => '8.x-1.0-rc4',
             'dev_requirement' => false,
         ),
         'drupal/bootstrap5' => array(
@@ -463,7 +472,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '7182c3ee79851590168a9d402ba70b391dfb8fd2',
+            'reference' => 'c06ebc6e9750c11bc102f825fccdcaa8451c22cf',
             'dev_requirement' => false,
         ),
         'drupal/webform' => array(

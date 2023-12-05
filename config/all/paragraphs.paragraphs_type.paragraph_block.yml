@@ -1,0 +1,10 @@
+uuid: 886d1226-bcb2-4b61-ae60-aa1b3b25d431
+langcode: en
+status: true
+dependencies: {  }
+id: paragraph_block
+label: 'Paragraph Block'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

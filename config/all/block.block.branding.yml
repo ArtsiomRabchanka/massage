@@ -15,7 +15,7 @@ third_party_settings:
 id: branding
 theme: b5subtheme
 region: header
-weight: -8
+weight: -12
 provider: null
 plugin: 'block_content:272e644e-9fa6-4a62-ad63-646953584280'
 settings:

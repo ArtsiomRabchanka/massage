@@ -15,7 +15,7 @@ third_party_settings:
 id: massageforyou
 theme: b5subtheme
 region: content
-weight: -9
+weight: -10
 provider: null
 plugin: 'block_content:e457727d-f776-412c-be75-bb929987f8c4'
 settings:

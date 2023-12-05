@@ -15,7 +15,7 @@ third_party_settings:
 id: phone
 theme: b5subtheme
 region: header
-weight: -6
+weight: -10
 provider: null
 plugin: 'block_content:3051d31b-37b3-4c9d-804a-ad75b1edb65c'
 settings:

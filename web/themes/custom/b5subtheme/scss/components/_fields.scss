@@ -2,6 +2,9 @@
     height: 100%;
     .field--name-field-p-image {
         height: 100%;
+        .field__item {
+            height: 100%;
+        }
         img {
             object-fit: cover;
             height: 100%;

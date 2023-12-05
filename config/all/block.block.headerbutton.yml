@@ -15,7 +15,7 @@ third_party_settings:
 id: headerbutton
 theme: b5subtheme
 region: header
-weight: -5
+weight: -9
 provider: null
 plugin: 'block_content:4a5f9c62-bb4d-4e99-8f34-7fc43d0653a0'
 settings:

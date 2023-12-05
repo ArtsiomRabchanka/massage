@@ -11,7 +11,7 @@ dependencies:
 id: conditions
 theme: b5subtheme
 region: content
-weight: -8
+weight: -9
 provider: null
 plugin: 'block_content:1ffdf0e3-cd6e-4e12-80ed-f4faec9f571f'
 settings:

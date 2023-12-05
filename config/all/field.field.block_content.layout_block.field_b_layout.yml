@@ -8,6 +8,7 @@ dependencies:
     - paragraphs.paragraphs_type.p_image
     - paragraphs.paragraphs_type.p_layout
     - paragraphs.paragraphs_type.p_text_formatted
+    - paragraphs.paragraphs_type.paragraph_block
   module:
     - entity_reference_revisions
 id: block_content.layout_block.field_b_layout
@@ -27,6 +28,7 @@ settings:
       p_layout: p_layout
       p_image: p_image
       p_text_formatted: p_text_formatted
+      paragraph_block: paragraph_block
     negate: 0
     target_bundles_drag_drop:
       p_image:
@@ -37,5 +39,8 @@ settings:
         enabled: true
       p_text_formatted:
         weight: 4
+        enabled: true
+      paragraph_block:
+        weight: 8
         enabled: true
 field_type: entity_reference_revisions

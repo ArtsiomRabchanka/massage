@@ -15,7 +15,7 @@ third_party_settings:
 id: test
 theme: b5subtheme
 region: header
-weight: -7
+weight: -11
 provider: null
 plugin: 'block_content:9ef7dfec-5c74-4f81-9b14-df87a1da1452'
 settings:

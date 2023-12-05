@@ -11,7 +11,7 @@ dependencies:
 id: conditionsimages
 theme: b5subtheme
 region: content
-weight: -7
+weight: -8
 provider: null
 plugin: 'block_content:125db45e-d640-4cbc-8e84-da3518a313c0'
 settings:

@@ -1,0 +1,26 @@
+uuid: 9e32751a-cdf3-455f-9cb1-d89e0195231a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraph_block.field_p_block
+    - paragraphs.paragraphs_type.paragraph_block
+  module:
+    - block_field
+id: paragraph.paragraph_block.default
+targetEntityType: paragraph
+bundle: paragraph_block
+mode: default
+content:
+  field_p_block:
+    type: block_field_default
+    weight: 0
+    region: content
+    settings:
+      plugin_id: ''
+      settings: {  }
+      configuration_form: full
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
